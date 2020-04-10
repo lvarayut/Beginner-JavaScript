@@ -10,6 +10,7 @@ cd
 ls
 mkdir
 rm -R
+touch JS
 ```
 
 **VSCode**
