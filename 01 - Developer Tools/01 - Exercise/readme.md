@@ -22,7 +22,7 @@ rm -R
 1. Install git by running
 
 ```bash
-git –version
+git –-version
 ```
 
 2. Fork the repository
