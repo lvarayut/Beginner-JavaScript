@@ -2,4 +2,5 @@
 // 2. Explicitly convert the "num" variable to number
 
 const num = '20';
-console.log(num == 20);
+const num2 = 20;
+console.log(num === num2.toString());
