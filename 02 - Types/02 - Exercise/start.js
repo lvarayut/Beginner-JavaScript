@@ -3,11 +3,11 @@
 
 const john = {
   name: 'John Doe',
-  age: 25
+  age: 25,
 };
-
-const jane = john;
-jane.name = 'Jane Doe';
-
+const jane = {
+  name: 'Jane Doe',
+  age: 25,
+};
 console.log(john);
 console.log(jane);

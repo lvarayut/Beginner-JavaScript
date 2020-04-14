@@ -6,6 +6,18 @@
 // Start writing the functions
 
 // No need to change anything below
+function addDish(dishes, element) {
+  dishes.push(element);
+}
+
+function removeDish(dishes, index) {
+  dishes.splice(index, 2);
+}
+
+function removeTopDish(dishes) {
+  dishes.pop();
+}
+
 const dishes = ['A', 'B'];
 addDish(dishes, 'C');
 removeDish(dishes, 0);
