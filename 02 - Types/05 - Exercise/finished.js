@@ -1,7 +1,2 @@
-function printNumber(num) {
-  if (typeof num === 'number') {
-    console.log(num);
-  }
-}
-
-printNumber(50);
+const num = '20';
+console.log(Number(num) === 20);
